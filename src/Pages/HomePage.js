@@ -216,6 +216,11 @@ class HomePage extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <section class='section3'>
+                    <div class='cerImg'>
+                            <img src='https://raw.githubusercontent.com/Assist2709/DuyVuCV/gh-pages/certificate.jpg'></img>
+                        </div>
+                    </section>
                 </div>
             </div>
         )
