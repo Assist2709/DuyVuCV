@@ -2,7 +2,7 @@ import React from 'react';
 import products from '../data/products.json'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowLeft, faBorderNone } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faArrowLeft, faAngleLeft,faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 import { ProgressBar } from 'react-bootstrap'
 import './HomePage.css'
@@ -217,7 +217,11 @@ class HomePage extends React.Component {
                         </div>
                     </section>
                     <section class='section3'>
-                    <div class='cerImg'>
+                        <div>
+                            <p class='title' style={{textAlign:'center'}}>MY CERTIFICATE</p>
+                            <p class='secondTitle'>FRONT END DEVELOPER <span style={{color:'red',fontFamily:'helvetica'}}>NORDIC <span style={{color:'black'}}><FontAwesomeIcon icon={faAngleLeft} />CODER<FontAwesomeIcon icon={faAngleRight} /></span></span></p>
+                        </div>
+                        <div class='cerImg'>
                             <img src='https://raw.githubusercontent.com/Assist2709/DuyVuCV/gh-pages/certificate.jpg'></img>
                         </div>
                     </section>
