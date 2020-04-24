@@ -167,6 +167,7 @@ class HomePage extends React.Component {
                                 <p class='title'>ABOUT ME</p>
                                 <p class='secondTitle'>WHO AM I?</p>
                                 <p class='textBlock'>Hello! My name is Khac Duy Vu and I am 29 years old. I had 5 years of exprerience as a real estate broker in Ho Chi Minh City and Phu Quoc. The job gave me the opportunity to learn about Wordpress websites to create my own sales channel. Since the first website, I found myself really interested in designing websites. That was the reason why I deciced to become a Front End Developer.</p>
+                                <p class="textBlock">Quá trình làm việc: </p>
                             </div>
                             <div>
                                 <p class='title'>MY SPECIALITY</p>
@@ -219,7 +220,7 @@ class HomePage extends React.Component {
                     <section class='section3'>
                         <div>
                             <p class='title' style={{textAlign:'center'}}>MY CERTIFICATE</p>
-                            <p class='secondTitle'>FRONT END DEVELOPER <span style={{color:'red',fontFamily:'helvetica'}}>NORDIC <span style={{color:'black'}}><FontAwesomeIcon icon={faAngleLeft} />CODER<FontAwesomeIcon icon={faAngleRight} /></span></span></p>
+                            <p class='secondTitle'>FRONT END DEVELOPER <span style={{color:'#dc3545',fontFamily:'helvetica'}}>NORDIC <span style={{color:'black'}}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
                         </div>
                         <div class='cerImg'>
                             <img src='https://raw.githubusercontent.com/Assist2709/DuyVuCV/gh-pages/certificate.jpg'></img>
