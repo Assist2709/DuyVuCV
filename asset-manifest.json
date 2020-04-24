@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DuyVuCV/static/css/main.82eb0dbb.chunk.css",
-    "main.js": "/DuyVuCV/static/js/main.d95699be.chunk.js",
-    "main.js.map": "/DuyVuCV/static/js/main.d95699be.chunk.js.map",
+    "main.js": "/DuyVuCV/static/js/main.347b3c28.chunk.js",
+    "main.js.map": "/DuyVuCV/static/js/main.347b3c28.chunk.js.map",
     "runtime-main.js": "/DuyVuCV/static/js/runtime-main.4e7883dd.js",
     "runtime-main.js.map": "/DuyVuCV/static/js/runtime-main.4e7883dd.js.map",
     "static/css/2.de424728.chunk.css": "/DuyVuCV/static/css/2.de424728.chunk.css",
     "static/js/2.6b4bb886.chunk.js": "/DuyVuCV/static/js/2.6b4bb886.chunk.js",
     "static/js/2.6b4bb886.chunk.js.map": "/DuyVuCV/static/js/2.6b4bb886.chunk.js.map",
     "index.html": "/DuyVuCV/index.html",
-    "precache-manifest.b9e7f21d0c1b5a865de3600157576c72.js": "/DuyVuCV/precache-manifest.b9e7f21d0c1b5a865de3600157576c72.js",
+    "precache-manifest.b3e678cbf7063da14e9c26ed7479786e.js": "/DuyVuCV/precache-manifest.b3e678cbf7063da14e9c26ed7479786e.js",
     "service-worker.js": "/DuyVuCV/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/DuyVuCV/static/css/2.de424728.chunk.css.map",
     "static/css/main.82eb0dbb.chunk.css.map": "/DuyVuCV/static/css/main.82eb0dbb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.6b4bb886.chunk.js",
     "static/css/main.82eb0dbb.chunk.css",
-    "static/js/main.d95699be.chunk.js"
+    "static/js/main.347b3c28.chunk.js"
   ]
 }
