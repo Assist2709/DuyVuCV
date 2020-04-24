@@ -2,7 +2,7 @@ import React from 'react';
 import products from '../data/products.json'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowLeft, faAngleLeft,faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faArrowLeft, faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 import { ProgressBar } from 'react-bootstrap'
 import './HomePage.css'
@@ -87,9 +87,9 @@ class HomePage extends React.Component {
             if (projectPosition < screenPosition) {
                 projectb.classList.add('projectAppear')
             }
-            if (projectPosition < screenPosition) {
-                projectc.classList.add('projectAppear')
-            }
+            // if (projectPosition < screenPosition) {
+            //     projectc.classList.add('projectAppear')
+            // }
             if (projectPosition < screenPosition) {
                 projectd.classList.add('projectAppear')
             }
@@ -193,25 +193,25 @@ class HomePage extends React.Component {
                                 <div class='projecta'>
                                     <a href='http://khacduyland.com/'>
                                         <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project1.png'></img>
-                                        <p class='projectTitle'>Project 1</p>
+                                        <p class='projectTitle'>khacduyland.com</p>
                                     </a>
                                 </div>
                                 <div class='projectb'>
                                     <a href='http://rivana.vn/'>
                                         <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project2.png'></img>
-                                        <p class='projectTitle'>Project 2</p>
+                                        <p class='projectTitle'>rivana.vn</p>
                                     </a>
                                 </div>
-                                <div class='projectc'>
+                                {/* <div class='projectc'>
                                     <a href='http://bietthuparkhyattphuquoc.com/'>
                                         <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project3.png'></img>
                                         <p class='projectTitle'>Project 3</p>
                                     </a>
-                                </div>
+                                </div> */}
                                 <div class='projectd'>
                                     <Link to='/khacduy91_CV/porfolio'>
                                         <img src='https://raw.githubusercontent.com/khacduy91/khacduy_CV/gh-pages/Project4.png'></img>
-                                        <p class='projectTitle'>Project 4</p>
+                                        <p class='projectTitle'>My React Project</p>
                                     </Link>
                                 </div>
                             </div>
@@ -219,12 +219,13 @@ class HomePage extends React.Component {
                     </section>
                     <section class='section3'>
                         <div>
-                            <p class='title' style={{textAlign:'center'}}>MY CERTIFICATE</p>
-                            <p class='secondTitle'>FRONT END DEVELOPER <span style={{color:'#dc3545',fontFamily:'helvetica'}}>NORDIC <span style={{color:'black'}}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
-                        </div>
-                        <div class='cerImg'>
+                            <p class='title' style={{ textAlign: 'center' }}>MY CERTIFICATE</p>
+                            <p class='cerTitle'>FRONT END DEVELOPER <br/><span style={{ color: '#dc3545', fontFamily: 'helvetica' }}>NORDIC <span style={{ color: 'black' }}><FontAwesomeIcon icon={faAngleLeft} /> CODER <FontAwesomeIcon icon={faAngleRight} /></span></span></p>
+                            <div class='cerImg'>
                             <img src='https://raw.githubusercontent.com/Assist2709/DuyVuCV/gh-pages/certificate.jpg'></img>
                         </div>
+                        </div>
+                       
                     </section>
                 </div>
             </div>

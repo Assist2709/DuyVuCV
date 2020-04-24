@@ -292,7 +292,6 @@
 }
 .projecta {
     width: 20%;
-    height: 200px;
     background-color: none;
     opacity: 0;
     transform: translateY(50px);
@@ -326,7 +325,7 @@
 
 .projectb {
     width: 20%;
-    height: 200px;
+  
     background-color: none;
     transform: translateY(50px);
     transition: all 1s ease-in-out;
@@ -336,7 +335,7 @@
 }
 .projectc {
     width: 20%;
-    height: 200px;
+ 
     background-color: none;
     transform: translateY(50px);
     transition: all 1s ease-in-out;
@@ -346,7 +345,7 @@
 }
 .projectd {
     width: 20%;
-    height: 200px;
+   
     background-color: none;
     transform: translateY(50px);
     transition: all 1s ease-in-out;
@@ -374,6 +373,12 @@
 }
 .cerImg img{
     width: 60%;
+}
+.cerTitle {
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
 @media only screen and (max-width: 600px) {
     .rightContainer {
@@ -428,5 +433,11 @@
     .cerImg img {
         width: 80%;
         margin-bottom: 20%;
+    }
+    .cerTitle {
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
     }
 }
