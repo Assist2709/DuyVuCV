@@ -425,4 +425,8 @@
     .section2 {
         height: auto;
     }
+    .cerImg img {
+        width: 80%;
+        margin-bottom: 20%;
+    }
 }
